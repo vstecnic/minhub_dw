@@ -44,7 +44,8 @@ nav{
     display: inline-block;
 }
 .list{
-    margin-top: 40px;
+    position: absolute;
+    top: 34em;
     height: 30vh;
     display: inline-block;
     
@@ -61,13 +62,6 @@ a:hover{
     color: black;
 }
 
-.contenido{
-    position: relative;
-    /* height: 30vh; */
-    display: inline-block;
-    margin-left: 9em;
-
-}
 p{
     margin-left: 15px;
     padding-bottom: 20px ;
