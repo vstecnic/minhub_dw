@@ -55,6 +55,8 @@ li{
     padding: 7px;
     color:black;
     background-color:rgb(66, 66, 197) ;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 0.58s linear; 
     
      
 }
@@ -67,11 +69,7 @@ a{
    
     
 }
-li{
-    -webkit-transition: background-color 1s linear;
-    transition: background-color 0.58s linear;
 
-}
 li:first-child{
     background-color:lime
 }
@@ -85,7 +83,7 @@ li:hover{
     /* height: 30vh; */
     display: inline-block;
     margin-top: 10px;
-    margin-left: -4em;
+    margin-left: -em;
 
 }
 p{

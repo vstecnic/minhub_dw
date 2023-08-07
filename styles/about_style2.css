@@ -5,23 +5,21 @@
     
 }
 header{
-    height: 25%;
+    height: 15%;
 }
 h1{
     color: orange;
-    position: absolute;
     margin-left: 35px;
-    display: inline-block;
+    display:block;
+    position: inherit;
     
 }
 
 .image1{
+    margin-top: 25px;
     /* margin-left: 10%; */
     height: 80vh;
     width: 100vw;
-    
-    
-    
 }
 
 .title{
@@ -36,43 +34,61 @@ h1{
 .logo{
     position:absolute;
     height:200px;
-    left: 75%;
-    top: 65%;
+    left: 1%;
+    top: 95%;
     
 }
 nav{
+   
+    position: relative;
     display: inline-block;
+    top: -50em;
+    right: -70%;
+
 }
-.list{
-    position: absolute;
-    top: 34em;
-    height: 30vh;
+
+li{
     display: inline-block;
+    margin-right: 15px;
+    border-style:solid;
+    text-decoration:none;
+    box-shadow: gray 4px 4px;
+    padding: 7px;
+    color:black;
+    background-color:rgb(66, 66, 197) ;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 0.58s linear; 
     
 }
-a{
-    margin-left: 10px;
-    display: block;
-    margin-bottom: 3em;
-    -webkit-transition: background-color 1s linear;
-    transition: background-color 0.58s linear;
+
+
+li:first-child{
+    background-color:lime
 }
-a:hover{
+li:hover{
     background-color: orange;
     color: black;
 }
-
-p{
-    margin-left: 15px;
-    padding-bottom: 20px ;
+a{
+    
+    text-decoration:none;
+    padding: 10px;
+    color: white;
+   
+    
 }
+
 .about_contenido{
     position: relative;
     /* height: 30vh; */
     display: inline-block;
-    margin-left: 9em;
-    padding-top: 40px;
+    margin-top: 10px;
+    margin-left: -4em;
 
+}
+p{
+    margin-left: 15px;
+    padding-bottom: 20px ;
 }
 .about_contenido .p1{
     margin-left: 30px;
