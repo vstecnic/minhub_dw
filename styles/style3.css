@@ -14,8 +14,8 @@ h1{
 
 header{
     margin-top: 5.5em;
-    background-image: url(../assets/design1_image2.jpg);
-    height: 75vh;
+    background-image: url(../assets/Jockey.gif);
+    height: 90vh;
     background-size: 100%;
 }
 .image1{
@@ -26,7 +26,7 @@ header{
     position: absolute;
     height: 14em;
     left: 3%;
-    top: 40em;
+    top: 46em;
 }
 h2{
     position: relative;
@@ -35,7 +35,7 @@ h2{
     color: antiquewhite;
     text-align: center;
     padding: 8px;
-    top: 10em;
+    top: 12.8em;
 }
 .list{
     display: inline-block;
