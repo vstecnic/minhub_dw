@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    bottom: 1.2em;
+    position: absolute;
+    color:orange;
+    position:relative;
+    display: inline-block;
+    font-size:400%;
+}
+
+header{
+    margin-top: 5.5em;
+    background-image: url(../assets/design1_image2.jpg);
+    height: 75vh;
+    background-size: 100%;
+}
+.image1{
+    height: 100vh;
+    width: 98.7vw;
+}   
+.logo{
+    position: absolute;
+    height: 14em;
+    left: 3%;
+    top: 40em;
+}
+h2{
+    position: relative;
+    font-size: 2.5em;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 8px;
+    top: 10em;
+}
+.list{
+    display: inline-block;
+    position: absolute;
+    top: 3.5em;
+    left: 60%;  
+}
+.list a{
+    margin-left: 2em;
+    font-size: 1.5em;
+    display:inline-block;
+    border-style: solid;
+    margin-bottom: 3em;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 0.58s linear;
+    
+    text-decoration: none;
+    box-shadow: gray 4px 4px;
+    color: white;
+    background-color: rgb(66, 66, 197);
+    padding: 7px;
+
+}
+a:active{
+    background-color: greenyellow;
+}
+.list a:hover{
+    background-color: orange;
+    text-decoration: none;
+}
+.contenido_index{
+    display: inline-block;
+    position: absolute;
+    margin-top: 4.5em;
+    left: 25%;
+}
+.contenido_index h4{
+    margin-left: 1em;
+    font-size: 2em;
+}
+.contenido_index p{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    font-size: larger;
+}
+.contact_p{
+    padding-top: 2em;
+}
