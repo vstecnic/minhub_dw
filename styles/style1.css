@@ -37,6 +37,7 @@ h2{
 }
 .list{
     display: inline-block;
+    margin-bottom: 6em;
       
 }
 .list a{
