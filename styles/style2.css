@@ -9,13 +9,14 @@ h1{
     color:orange;
     position:relative;
     display: inline-block;
-    font-size:460%;
+    font-size:400%;
 }
 
 header{
     margin-top: 5.5em;
     background-image: url(../assets/design1_image2.jpg);
     height: 75vh;
+    background-size: 100%;
 }
 .image1{
     height: 100vh;
@@ -40,7 +41,7 @@ h2{
     display: inline-block;
     position: absolute;
     top: 3.5em;
-    left: 65%;  
+    left: 60%;  
 }
 .list a{
     margin-left: 2em;
@@ -68,7 +69,7 @@ a:active{
 .contenido_index{
     display: inline-block;
     position: absolute;
-    margin-top: 2em;
+    margin-top: 4.5em;
     left: 25%;
 }
 .contenido_index h4{
@@ -81,5 +82,5 @@ a:active{
     font-size: larger;
 }
 .contact_p{
-    padding-top: 4em;
+    padding-top: 2em;
 }
