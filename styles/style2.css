@@ -3,74 +3,102 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container_htop{
+    /* background-color: gray; */
+    display: flex;
+    height: 10%;
+    gap: 4.6%;
+    justify-content: center;
+    /* align-items:flex-end; */
+}
 h1{
-    bottom: 1.2em;
-    position: absolute;
-    color:orange;
-    position:relative;
-    display: inline-block;
-    font-size:400%;
+    /* bottom: 1.2em; */
+    /* position: absolute; */
+    color:black;
+    /* position:relative; */
+    /* display: inline-block; */
+    font-size:300%;
+    /* background-color: blueviolet; */
+    width: 60%;
+
+}
+.list{
+
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* top: 3.5em; */
+    /* background-color: aqua;   */
+    width: 40%;
+    
+}
+.list a{
+    /* margin-left: 2em; */
+    font-size: 1.5em;
+    /* display:inline-block; */
+    border-style: solid black;
+    /* margin-bottom: 3em; */
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 0.58s linear; 
+    text-decoration: none;
+    box-shadow: gray 4px 4px;
+    color: white;
+    background-color: rgb(66, 66, 197);
+    padding: 9px;
+
+}
+
+.list a:hover{
+    background-color: orange;
+    text-decoration: none;
+}
+#active{
+    background-color: greenyellow;
 }
 
 header{
-    margin-top: 5.5em;
+    /* margin-top: 5.5em; */
     background-image: url(../assets/design1_image2.jpg);
-    height: 75vh;
+    height: 51vh;
     background-size: 100%;
 }
 .image1{
     height: 100vh;
     width: 98.7vw;
 }   
-.logo{
-    position: absolute;
-    height: 14em;
-    left: 3%;
-    top: 40em;
-}
+
 h2{
     position: relative;
-    font-size: 2.5em;
+    font-size: 1.8em;
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    padding: 8px;
-    top: 10em;
+    padding: 5px;
+    top: 9em;
 }
-.list{
-    display: inline-block;
-    position: absolute;
-    top: 3.5em;
-    left: 60%;  
-}
-.list a{
-    margin-left: 2em;
-    font-size: 1.5em;
-    display:inline-block;
-    border-style: solid;
-    margin-bottom: 3em;
-    -webkit-transition: background-color 1s linear;
-    transition: background-color 0.58s linear;
-    
-    text-decoration: none;
-    box-shadow: gray 4px 4px;
-    color: white;
-    background-color: rgb(66, 66, 197);
-    padding: 7px;
+
+.contenido_index{
+    display: flex;
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* margin-top: 1.7em; */
+    /* left: 25%; */
+    /* background-color: aqua; */
+    justify-content: space-between;
 
 }
-a:active{
-    background-color: greenyellow;
+.logo{
+    /* position: absolute; */
+    height: 14em;
+    left: 3%;
+    /* top: 40em; */
+    /* background-color: blueviolet; */
+
 }
-.list a:hover{
-    background-color: orange;
-    text-decoration: none;
-}
-.contenido_index{
-    display: inline-block;
-    position: absolute;
-    margin-top: 4.5em;
-    left: 25%;
+
+article{
+    width: 75%;
+    /* background-color: cadetblue; */
+
 }
 .contenido_index h4{
     margin-left: 1em;
