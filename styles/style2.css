@@ -57,9 +57,10 @@ h1{
 
 header{
     /* margin-top: 5.5em; */
-    background-image: url(../assets/design1_image2.jpg);
+    background-image: url(../assets/design1_image22.jpg);
     height: 51vh;
     background-size: 100%;
+    background-repeat:round;
 }
 .image1{
     height: 100vh;
@@ -73,7 +74,7 @@ h2{
     color: antiquewhite;
     text-align: center;
     padding: 5px;
-    top: 9em;
+    /* top: 5em; */
 }
 
 .contenido_index{
@@ -84,6 +85,12 @@ h2{
     /* left: 25%; */
     /* background-color: aqua; */
     justify-content: space-between;
+
+}
+.contenido_rules{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 
 }
 .logo{
@@ -112,4 +119,62 @@ article{
     width: 70%;
     /* background-color: aqua; */
     padding-top: 3em;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+caption{
+    caption-side:top;
+    text-align: start;
+    text-decoration: underline;
+}
+.contenido_games_titles{
+    background-color: blueviolet;
+    padding: 15px;
+}
+.contenido_rules_titles{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25%;
+}
+.contenido_rules_p{
+    background-color: aqua;
+}
+.contenido_rules_titles{
+    background-color: blueviolet;
+    flex-direction: column;
+}
+#rules_h4{
+    font-size:18px;
+}
+.contenido_rules_list{
+    /* background-color: orange; */
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.ol_fields_rules{
+    margin-left: 2em;
+    /* background-color: cadetblue; */
+    list-style:lower-alpha;
+}
+.all_play_li{
+    /* background-color: brown; */
+    list-style: circle;
+    margin-left: 2em;
+}
+.rules_titles{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.rules_details p{
+    padding: 10px;
 }
