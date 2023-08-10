@@ -105,10 +105,11 @@ article{
     font-size: 2em;
 }
 .contenido_index p{
-    margin-left: 4em;
-    margin-bottom: 2em;
+    /* background-color: blueviolet; */
     font-size: larger;
 }
 .contact_p{
-    padding-top: 2em;
+    width: 70%;
+    /* background-color: aqua; */
+    padding-top: 3em;
 }
