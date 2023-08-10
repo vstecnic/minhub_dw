@@ -134,14 +134,18 @@ caption{
     caption-side:top;
     text-align: start;
     text-decoration: underline;
+    margin-bottom: 15px;
 }
 .contenido_games{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12em;
 }
 .game_schedule{
     display: flex;
     flex-direction: column;
+    /* background-color: aqua; */
+    margin-right: 20em;
 }
 .game_titles{
     display: flex;
@@ -153,6 +157,7 @@ caption{
     align-items: center;
     font-size: 2em;
     margin-bottom: 10px;
+    margin-right: 8em;
 }
 #fall_s{
     margin-right: 80%;
@@ -164,16 +169,19 @@ caption{
     margin-bottom: 20px;
 
 }
+.contenido_rules{
+    display: flex;
+    justify-content: space-between;
+}
 .contenido_rules_titles{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 25%;
+   
 }
-.contenido_rules_p{
-    /* background-color: aqua; */
-}
+
 .contenido_rules_titles{
     /* background-color: blueviolet; */
     flex-direction: column;
@@ -205,6 +213,7 @@ caption{
     justify-content: center;
     /* background-color: aqua; */
     align-items: center;
+    margin-right: 21em;
 }
 .rules_details p{
     padding: 10px;
