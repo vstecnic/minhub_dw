@@ -85,6 +85,7 @@ h2{
     /* left: 25%; */
     /* background-color: aqua; */
     justify-content: space-between;
+    
 
 }
 .contenido_rules{
@@ -121,8 +122,12 @@ article{
     padding-top: 3em;
 }
 table, tr, th, td{
-    border: 1px solid black;
+    
+    /* border: 1px solid black; */
     border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
 
 }
 caption{
@@ -130,9 +135,34 @@ caption{
     text-align: start;
     text-decoration: underline;
 }
-.contenido_games_titles{
-    background-color: blueviolet;
+.contenido_games{
+    display: flex;
+    flex-direction: row;
+}
+.game_schedule{
+    display: flex;
+    flex-direction: column;
+}
+.game_titles{
+    display: flex;
+    /* background-color: blueviolet; */
     padding: 15px;
+    flex: row ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#fall_s{
+    margin-right: 80%;
+    
+}
+.table{
+    padding: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+
 }
 .contenido_rules_titles{
     background-color: blue;
@@ -142,11 +172,12 @@ caption{
     margin-bottom: 25%;
 }
 .contenido_rules_p{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .contenido_rules_titles{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     flex-direction: column;
+    display: flex;
 }
 #rules_h4{
     font-size:18px;
@@ -177,4 +208,11 @@ caption{
 }
 .rules_details p{
     padding: 10px;
+}
+.games_contact{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
