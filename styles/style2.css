@@ -225,3 +225,24 @@ caption{
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+.registration_container{
+    background-color: aqua;
+    padding: 1em;
+    margin-right: 30em;
+}
+.form_nombre_apellido{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    color:gray;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+}
