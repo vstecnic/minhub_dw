@@ -169,6 +169,42 @@ caption{
     margin-bottom: 20px;
 
 }
+
+/* GAME LOCATIONS */
+.game_locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* background-color: chocolate; */
+    ;
+}
+.box_locations{
+    border-style: solid chocolate;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 10px;
+    font-size: 2em;
+    background-color: orange;
+}
+.box_title{
+    margin-left:0.8em ;
+}
+.iframe{
+    margin-bottom: 25px;
+}
+.img_box{
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    width: 50%;
+}
+
+
+
+
+
 .contenido_rules{
     display: flex;
     justify-content: space-between;
@@ -218,10 +254,17 @@ caption{
 .rules_details p{
     padding: 10px;
 }
+.additional{
+    margin-top: 10px;
+}
+.please{
+    margin-top: 10px;
+}
 .games_contact{
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
