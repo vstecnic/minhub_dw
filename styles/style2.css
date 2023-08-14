@@ -28,7 +28,7 @@ h1{
     /* position: absolute; */
     /* top: 3.5em; */
     /* background-color: aqua;   */
-    width: 40%;
+    width: 55%;
     
 }
 .list a{
@@ -225,8 +225,15 @@ caption{
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+.contenido_registration_f{
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
 .registration_container{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 1em;
     margin-right: 30em;
 }
@@ -234,6 +241,94 @@ caption{
     display: flex;
     justify-content: space-between;
 }
+/* form de register*/
+.registration_container{
+    /* width: 80%; */
+    margin-left: em;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+#first_name{
+    width: 10em;
+    /* color: blue; */
+}
+#last_name{
+    width: 10em;
+    /* color: blue; */
+}
+#address{
+    width: 25em;
+    margin: 5px;
+}
+.zip_code_title{
+    margin-left: 2em;
+}
+#zip_code{
+    width: 5em;
+    margin-bottom: 12px;
+}
+
+#birth_date{
+    width: 22%;
+}
+#Male{
+    margin-bottom: 12px;
+
+}
+#g5th{
+ margin-bottom: 12px;
+}
+#school{
+    margin-bottom: 12px;
+}
+.uniform{
+    margin-top: 12px;
+}
+.submit{
+    margin-top: 5px;
+    font-size: 1.5em;
+    padding: 3px;
+    margin-left: 7.5em;
+    background-color: orange;
+    text-decoration: none;
+}
+.submit:hover{
+  border-radius:  5px;
+  box-shadow: gray 15px 15px 15px;
+
+}
+
+
+.permission{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    align-content: left;
+    flex-direction: column;
+    margin-right: 20em;
+}
+.permission_title{
+    margin-right: 6em;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+.parent{
+    margin-right: 15em;
+}
+.date{
+    margin-right: 33em;
+}
+
+
+
+
+
+
+
+
 footer{
     
     background-color: black;

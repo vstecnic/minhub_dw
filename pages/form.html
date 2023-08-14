@@ -48,18 +48,17 @@
                                 <label for="first_name"><b>First Name</b></label>
                                 <input type="text" id="first_name" name="first_name">
                                 <label for="last_name"><b>Last Name</b></label>
-                                <input type="text" id="last_name" name="last_name">
+                                <input type="text" id="last_name" name="last_name"><br>
                             <!-- </div> -->
                                 <label for="address"><b>Street Address</b></label>
                                 <input type="text" id="address" name="Street Adress"><br>
                             <!-- <div class="form_box1"> -->
                                 <label for="city"><b>City</b></label>
                                 <input type="text" id="city" name="city">
-                                <label for="zip_code"><b>Zip Code</b></label>
+                                <label for="zip_code" class="zip_code_title"><b>Zip Code</b></label>
                                 <input type="text" id="zip_code" name="zip_code"><br>                           
                                 <label for="birth_date"><b>Birth Date(mm/dd/yyyy)</b></label>
                                 <input type="date" id="birth_date" name="birth_date">
-
                                 <p><b>Gender: </b></p>
                                 <label for="Female"><b>Female</b></label>
                                 <input type="radio" id="Female" name="Gender" value="Female">
@@ -69,16 +68,16 @@
                                 <p><b>Grade:</b></p>
                                 <input type="radio" id="preschool" name="Grade" value="Pre-School">
                                 <label for="preschool">Pre-School</label>
-                                <input type="radio" id="1th" name="Grade" value="1th">
-                                <label for="1th">1th</label>
-                                <input type="radio" id="2th" name="Grade" value="2th">
-                                <label for="2th">2th</label>
-                                <input type="radio" id="3th" name="Grade" value="3th">
-                                <label for="3th">3th</label>
-                                <input type="radio" id="4th" name="Grade" value="4th">
-                                <label for="4th">4th</label>
-                                <input type="radio" id="5th" name="Grade" value="5th">
-                                <label for="5th">5th</label>
+                                <input type="radio" id="g1th" name="Grade" value="1th">
+                                <label for="g1th">1th</label>
+                                <input type="radio" id="g2th" name="Grade" value="2th">
+                                <label for="g2th">2th</label>
+                                <input type="radio" id="g3th" name="Grade" value="3th">
+                                <label for="g3th">3th</label>
+                                <input type="radio" id="g4th" name="Grade" value="4th">
+                                <label for="g4th">4th</label>
+                                <input type="radio" id="g5th" name="Grade" value="5th">
+                                <label for="g5th">5th</label>
                             <!-- </div> -->
                             <fieldset>
                                 <legend><b>Which elementary school do you live near?</b></legend>
@@ -103,7 +102,7 @@
                                 <input type="checkbox" name="Position" id="Goalkeeper" value="Goalkeeper">
                                 <label for="Goalkeeper">Goalkeeper</label>
                             </fieldset>
-                            <fieldset>
+                            <fieldset class="uniform">
                                 <legend><b>Uniform Size:</b></legend>
                                 <input type="checkbox" name="Uniform" id="YouthSmall" value="Youth Small">
                                 <p>Youth Small</p>
@@ -121,12 +120,12 @@
                                 <p>Extra-Large</p>
                             </fieldset>                            
                         </fieldset>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" class="submit">Submit</button>
 
                     </form>                    
                 </div>
                 <div class="permission">
-                    <p><b>Permission to Play</b></p>
+                    <p class="permission_title"><b>Permission to Play</b></p>
                     <p>I, the parent of guardian of the minor registrant, agree that the registrant and I will abide by all the<br>
                     rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury<br>
                     associated with hockey and in consideration for the "League" accepting the registrant for its<br>
@@ -138,8 +137,8 @@
                     By singning below, I herebyagree and authorize the above. In addition, by signing below.<br>
                     I also acknowledge that I have read the cancellation policy and agree to its terms </p>
                     <br><br>
-                    <p>Parent/Guardian Signature</p>
-                    <p>Date</p>
+                    <p class="parent">Parent/Guardian Signature: _____________________________</p><br>
+                    <p class="date">Date: __________</p>
                 </div>
            </div>         
             
