@@ -60,7 +60,7 @@ header{
     background-image: url(../assets/design1_image22.jpg);
     height: 51vh;
     background-size: 100%;
-    background-repeat:round;
+    background-repeat:no-repeat;
 }
 .image1{
     height: 100vh;
@@ -365,13 +365,6 @@ caption{
     margin-right: 33em;
 }
 
-
-
-
-
-
-
-
 footer{
     
     background-color: black;
@@ -383,4 +376,34 @@ footer{
 footer a{
     text-decoration: none;
     color: grey;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+header{
+    background-repeat:no-repeat;
+    height: 51vh;
+    background-size: 280%;
+}
+h1{
+    font-size:300%;
+    display:flex;
+    flex-direction: row;
+    
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-right: 12em;
+
+}
+.list a{
+    width: 10em;
+    text-align: center;
+
+
+}
+
+
 }
