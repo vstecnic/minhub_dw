@@ -201,13 +201,14 @@ caption{
     width: 50%;
 }
 
-
-
-
-
 .contenido_rules{
     display: flex;
     justify-content: space-between;
+}
+.contenido_registration{
+    /* background-color: orange; */
+    display: flex;
+    gap: 2em;
 }
 .contenido_rules_titles{
     /* background-color: blue; */
@@ -269,17 +270,19 @@ caption{
     margin-bottom: 15px;
 }
 .contenido_registration_f{
+    margin-top: 6px;
+    margin-left: 5em;
     /* background-color: cadetblue; */
     display: flex;
-    align-items: center;
-    align-content: center;
     flex-direction: column;
+    text-align: left;
 }
-.registration_container{
+/* .registration_container{
     /* background-color: aqua; */
+    /* margin: 10em;
     padding: 1em;
     margin-right: 30em;
-}
+} */ 
 .form_nombre_apellido{
     display: flex;
     justify-content: space-between;
@@ -287,23 +290,28 @@ caption{
 /* form de register*/
 .registration_container{
     /* width: 80%; */
-    margin-left: em;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
 }
+.marco{
+    margin: 50px;
+}
 #first_name{
-    width: 10em;
+    width: 12em;
     /* color: blue; */
+    margin-right: 3.5em;
 }
 #last_name{
-    width: 10em;
+    margin-left: 1em;
+    position: absolute;
+    width: 12em;
     /* color: blue; */
 }
 #address{
-    width: 25em;
+    width: 23em;
     margin: 5px;
 }
 .zip_code_title{
@@ -315,11 +323,28 @@ caption{
 }
 
 #birth_date{
-    width: 22%;
+    margin-top: 1em;
+    display: inline-block;
+}
+.gender{
+    display: inline-block;
+    margin-left: 2em;
+  
+}
+#Female{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
 }
 #Male{
-    margin-bottom: 12px;
-
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.grade_title{
+    margin-left: 15em;
+}
+#preschool{
+    margin-left: 8.5em;
 }
 #g5th{
  margin-bottom: 12px;
@@ -327,16 +352,42 @@ caption{
 #school{
     margin-bottom: 12px;
 }
-.uniform{
-    margin-top: 12px;
+#Forward{
+    margin-left:9em ;
 }
+
+.uniform{
+
+    /* color: lime; */
+    margin-top: 12px;
+    display:inline-flex;
+    gap: 10px;
+    margin-bottom: 3em;
+}
+.uniform_p{
+    margin-left: 15em;
+}
+#YouthSmall{
+    margin-left: 1em;
+}
+#signature{
+    width: 18em;
+    margin: 3px;
+}
+#date{
+    width: 8em;
+    margin: 3px;
+}
+
 .submit{
     margin-top: 5px;
     font-size: 1.5em;
     padding: 3px;
-    margin-left: 7.5em;
+    /* margin-left: 7.5em; */
     background-color: orange;
     text-decoration: none;
+    border-style: none;
+    width: 100%;
 }
 .submit:hover{
   border-radius:  5px;
